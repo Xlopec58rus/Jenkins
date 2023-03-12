@@ -1,0 +1,281 @@
+ body { background: url(81112-sinij_cvet-lazer-informaciya-liniya-biznes-1920x1080.jpg);
+    background-size: 100%;
+    background-attachment:fixed ;
+    background-repeat: no-repeat;
+    font: 14px 'Verdana';
+    margin: 0 auto;
+    padding: 0;
+    max-width: 90rem;
+    max-height: 61rem;
+
+
+
+
+
+}
+
+}
+<style>
+   body
+
+   {
+     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+   }
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #000000; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   #header { /* Верхний блок */
+    background:url(headerbanner.jpg); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   #sidebar { /* Левая колонка */
+
+    float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    height: auto;
+    width: auto; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 5% 0% auto 10%; /* Значения отступов */
+
+   }
+   #content { /* Правая колонка */
+    margin: 5% 4% 10% 27%; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+    width: 64%;
+    float: top;
+   }
+   #footer { /* Нижний блок */
+    background: #333; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: left; /* Отменяем действие float */
+   }
+
+   .cnop{
+ margin: 0px 0px 5% 0%;
+
+   }
+ul.menu {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  display: inline-block;
+  background-color: #3d3e40;
+  width: 190px;
+}
+
+ul.menu li {
+  list-style: none;
+  position: relative;
+}
+
+ul.menu li a {
+  padding: 10px 12px 12px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Arial;
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #c4c4c4;
+}
+
+ul.menu li a:hover {
+  background-color: #b00000;
+}
+
+ul.menu li:first-child a {
+  border-top: none;
+}
+
+ul.menu li:first-child a:hover {
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+}
+
+ul.menu li:last-child a:hover {
+  border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+}
+
+ul.menu li ul {
+  display: none;
+}
+
+ul.menu li:hover ul {
+  display: block;
+  position: absolute;
+  left: 190px;
+  top: 1px;
+  background-color: #28282a;
+  width: 150px;
+  z-index: 1000;
+  border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+}
+
+ul.menu li:hover ul li:first-child a:hover {
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+}
+
+ul.menu li:hover ul li:last-child a:hover {
+  border-radius: 0 0 5px 0;
+  -webkit-border-radius: 0 0 5px 0;
+  -moz-border-radius: 0 0 5px 0;
+}
+
+  </style>
+
+
+<style>
+
+#wrap{
+display: none;
+opacity: 0.8;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+padding: 16px;
+background-color: rgba(1, 1, 1, 0.725);
+z-index: 100;
+overflow: auto;
+}
+
+#window{
+width: 400px;
+height: 400px;
+margin: 50px auto;
+display: none;
+background: #fff;
+z-index: 200;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+padding: 16px;
+}
+
+.close{
+margin-left: 364px;
+margin-top: 4px;
+}
+
+.a_demo_one {
+  background-color:#3bb3e0;
+  padding:10px;
+  position:relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size:12px;
+  text-decoration:none;
+  color:#fff;
+  border: solid 1px #186f8f;
+  background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0, rgb(44,160,202)),
+  color-stop(1, rgb(62,184,229))
+  );
+  -webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+  -moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+\\
+
+.baton::before {
+  background-color:#ccd0d5;
+  content:"";
+  display:block;
+  position:absolute;
+  width:100%;
+  height:100%;
+  padding:8px;
+  left:-8px;
+  top:-8px;
+  z-index:-1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+  -moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+  -o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+  box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+}
+
+.a_demo_one:active {
+  padding-bottom:9px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:11px;
+  top:1px;
+  background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0, rgb(62,184,229)),
+  color-stop(1, rgb(44,160,202))
+  );
+}
+
+
+
+
+
+
+.tov1{
+  font-size: 15px; margin: 10px 2px 2px 2px; padding: 2% ;
+}
+
+
+.tov2{
+
+
+  font-size: 15px; margin: 10px 2px 2px 2px; padding: 0% ;
+}
+
+
+
+.tov3{
+
+font-size: 15px; margin: 10px 2px 2px 2px; padding: 0%
+
+}
+ 
+
+ </style>
+
+
+

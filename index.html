@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" href="static/css2.css">
+    <link rel="shortcut icon" href="static/photo_2023-03-12_00-45-08.jpg" type="image/x-icon">
+</head>
+
+ <body >
+
+  <DIV  style=" float: right ;margin: 1% 5px 0 0 ">
+
+   <div><img style="margin: 8px 5px 0 1% ; float: left; " width="3%" height="3%" src="static/photo_2023-03-12_00-45-08.jpg"></div>
+  <div id="header"><h1>Bloshkin-info.info</h1>
+
+
+
+</div>
+
+
+  <div  style="background-color: #87CEEB" >
+	   <p>  Добро пожаловать на сайт! Гиперссылка:
+	   <a href="http://www.penzgtu.ru">Пензенский государственный технологический университет</a>
+	   </p>
+      <!-- <marquee behavior="scroll" direction="left" >  Добро пожаловать на сайт  </marquee > -->  
+  </div>
+
+
+  <div id="sidebar" style="background-color: #3d3e40;  border: solid 3px; border-radius: 10px; ">
+      <ul class="menu">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href=ci_cd.html>CI/CD</a></li>
+          <li><a href="jenkins.html">Мои практики Jenkins</a>
+          <li><a href="bloshkin.html">Блошкин О.А.</a></li>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <div  id="content" style="background: SlateGray ;overflow: auto ;"  >
+
+    <h2>Jenkins</h2>
+<BR>
+<div   style=" margin-left: 30%" >
+<img style="height: 20%; width: 60%" src="static/Jenkins_logo_with_title.svg.png"></div>
+<br>
+     <p> 
+	 Что такое Jenkins?
+      <br>
+      <br>
+      Jenkins — это популярный сервер автоматизации с открытым кодом, используемый для внедрения непрерывной интеграции и непрерывной доставки (CI/CD) для проектов программного обеспечения.
+      <br>
+      <br>
+      Jenkins – не просто инструмент CI/CD. Это Framework, потому что он:
+      <br>
+      <br>
+      Гибок и расширяем. Jenkins — опенсорсный проект с множеством внешних расширений.
+      <br>
+      <br>
+      Минимален из коробки. У Jenkins есть контроллер. Вы можете подключить к нему несколько слоев и уже на этом сетапе собрать минимальный пайплайн, который позволит автоматизировать работу по обновлению сервисов.
+      <br>
+      <br>
+      Требует настройки. Jenkins — один из кубиков, с помощью которого можно построить большую систему автоматизации. Но прежде чем сделать что-то, его придётся настроить.
+      <br>
+      <br>
+      Jenkins — это Java-приложение. У него есть контроллер или Master Mode — управляющий центр, который занимается планированием задач. Он запускает задачи согласно установленному расписанию на слэйвах, которые вы к нему прикрепили. Помимо этого контроллер хранит логи наших задач. Вся история хранится только на Master Mode, поэтому важно помнить о настройке правильной ротации логов.
+      <br>
+      <br>
+      Слэйвы или агенты — это то, что непосредственно выполняет сами задания.
+      <br>
+      <br>
+      Коротко их взаимодействие можно описать так: контроллер запускает задачу и говорит агенту выполнить её, агент выполняет задачу и возвращает результат контроллеру. Контроллер получает результат и сохраняет его в build-логе.
+  </p>
+
+
+  <div id="footer">&copy;Блошкин</div>
+
+ </body>
+</html>
