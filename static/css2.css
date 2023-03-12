@@ -175,15 +175,7 @@ padding: 16px;
 .close{
 margin-left: 364px;
 margin-top: 4px;
-cursor: pointer;
 }
-
-
-body, a, a:hover {cursor: url(cursor.cur), progress;}
-
-
-
-
 
 .a_demo_one {
   background-color:#3bb3e0;
