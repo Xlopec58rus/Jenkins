@@ -31,7 +31,7 @@
     margin-top: 0; /* Убираем отступ сверху */
    }
    #header { /* Верхний блок */
-    background:url(wpapers_ru_Синяя-текстура.jpg); /* Цвет фона */
+    background:url(headerbanner.jpg); /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
    }
    #sidebar { /* Левая колонка */
